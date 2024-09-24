@@ -111,3 +111,6 @@ p {
   object-fit: cover;
   border-radius: 15px; 
 }
+html {
+  scroll-behavior: smooth;
+}
