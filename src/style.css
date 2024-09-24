@@ -1,5 +1,7 @@
+
+
 :root {
-  --primary-color: #6e26b1;
+  --primary-color: #6e26b1; 
   --secondary-color: #f5f2fe;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
@@ -29,6 +31,24 @@ p {
   font-size: 18px;
   line-height: 1.5;
 }
+
+
+.btn-primary {
+  background-color: var(--primary-color);
+  border-color: var(--primary-color);
+}
+
+
+.btn-outline-primary {
+  color: var(--primary-color);
+  border-color: var(--primary-color);
+}
+
+.btn-outline-primary:hover {
+  background-color: var(--primary-color);
+  color: white; 
+}
+
 
 .navigation-links {
   display: flex;
@@ -85,10 +105,9 @@ p {
   text-decoration: underline;
 }
 
-
 .img-fluid {
   width: 500px;  
-  height:300px; 
+  height: 300px; 
   object-fit: cover;
-  border-radius:15px; 
+  border-radius: 15px; 
 }
