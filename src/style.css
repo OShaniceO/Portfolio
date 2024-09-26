@@ -21,12 +21,16 @@ h1 {
 }
 
 h2 {
-  font-size: 48px;
+  font-size: 38px;
 }
 
 h3 {
   font-size: 24px;
   opacity: 0.7;
+}
+h6 {
+  color: #b12693;
+  text-align: left;
 }
 
 p {
@@ -89,7 +93,6 @@ p {
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-style: normal;
-  
 }
 
 @media (max-width: 900px) {
@@ -121,4 +124,7 @@ p {
     height: auto;
     margin: 0 auto;
   }
+}
+footer {
+  text-align: center;
 }
