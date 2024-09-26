@@ -126,5 +126,10 @@ p {
   }
 }
 footer {
-  text-align: center;
+  text-align: right;
+  opacity:  63%;
+  padding-left: 40px;
+  padding-right: 40px;
 }
+
+
