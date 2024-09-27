@@ -6,7 +6,11 @@
 
 body {
   font-family: "Poppins", sans-serif;
-  margin-top: 100px;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; 
 }
 
 h1,
@@ -28,6 +32,7 @@ h3 {
   font-size: 24px;
   opacity: 0.7;
 }
+
 h6 {
   color: #b12693;
   text-align: left;
@@ -125,11 +130,18 @@ p {
     margin: 0 auto;
   }
 }
-footer {
-  text-align: right;
-  opacity:  63%;
-  padding-left: 40px;
-  padding-right: 40px;
-}
+footer{text-align:right;
+opacity: 60%;}
 
+
+.index-footer {
+  position: absolute; 
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: right;
+  padding: 10px 20px;
+  opacity: 60%;
+  
+}
 
